@@ -1,0 +1,67 @@
+:root {
+  --white: #fefefe;
+  --background-blue: #13bdd2;
+  --error-red-alert: #ba171f;
+  --button-text-color: #000000;
+}
+
+html {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+  font-size: 0.8rem;
+  margin: auto;
+}
+
+div {
+  padding: inherit;
+}
+
+a {
+  color: var(--white);
+}
+
+.login-box-background {
+  background: url('../img/bg.jpeg') no-repeat center center;
+  background-size: cover;
+  padding: 20px 30px 20px 30px;
+}
+
+.login-box {
+  background-color: var(--background-blue);
+  border-radius: 5px;
+  margin: 30px auto 0;
+  min-height: 600px;
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+}
+
+.keyboard-icon {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: auto;
+}
+
+.submit {
+  background-color: var(--white);
+  margin: 40px auto;
+  border-radius: 5px;
+  color: var(--button-text-color);
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.error {
+  border: solid var(--error-red-alert) 3px;
+}
+
+.error-alert {
+  color: var(--error-red-alert);
+}
